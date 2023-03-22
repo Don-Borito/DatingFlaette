@@ -1,5 +1,0 @@
-GET http://localhost:3000/callScene/0/Restaurant
-
-###
-
-GET http://localhost:3000/callAll

@@ -24,7 +24,7 @@ const sceneList = {
         {
             scene: "Intro",
             number: 0,
-            dialogue: "Gehen wir Bar oder Restaurant?",
+            dialogue: "Gehen wir in die Bar oder ins Restaurant?",
             optionA: "Restaurant",
             pathA: "Restaurant",
             optionAstyle: "block",
@@ -37,7 +37,7 @@ const sceneList = {
         {
             scene: "Bar",
             number: 0,
-            dialogue: "Trinken wir ein bisschen? *sauft eine*",
+            dialogue: "Trinken wir ein bisschen? *Sie trinken beide*",
             optionAstyle: "none",
             optionBstyle: "none",
             image: "./PicsDatingFlätte/trinkenimcasino.png",
@@ -45,7 +45,7 @@ const sceneList = {
         {
             scene: "Bar",
             number: 1,
-            dialogue: "Spielen wir Poker? *spielt einmal",
+            dialogue: "Spielen wir Poker? *Sie spielen eine Runde",
             optionAstyle: "none",
             optionBstyle: "none",
             image: "./PicsDatingFlätte/1spiel.png",
@@ -53,7 +53,7 @@ const sceneList = {
         {
             scene: "Bar",
             number: 2,
-            dialogue: "SIEG!!!",
+            dialogue: "Gewonnen!!!",
             optionAstyle: "none",
             optionBstyle: "none",
             image: "./PicsDatingFlätte/Sieger.png",
@@ -61,7 +61,7 @@ const sceneList = {
         {
             scene: "Bar",
             number: 3,
-            dialogue: "sollen wir noch einmal spielen?",
+            dialogue: "Wollen wir noch einmal spielen?",
             optionAstyle: "block",
             optionA: "Ja",
             pathA: "Mafia",
@@ -74,12 +74,12 @@ const sceneList = {
         {
             scene: "Cardealer",
             number: 0,
-            dialogue: "Buggati oder Benz kaufen",
+            dialogue: "Bugatti für dich oder Mercedes Benz für Flätte kaufen?",
             optionA: "Benz",
             pathA: "Benz",
             optionAstyle: "block",
-            optionB: "Buggati",
-            pathB: "Buggati",
+            optionB: "Bugatti",
+            pathB: "Bugatti",
             optionBstyle: "block",
             image: "./PicsDatingFlätte/autoladen.png"
         },
@@ -87,15 +87,15 @@ const sceneList = {
         {
             scene: "Benz",
             number: 0,
-            dialogue: "Flätte ist glücklich / Benz als geschenk gegeben",
+            dialogue: "Flätte ist glücklich | Benz als geschenk gegeben. Der Benz wird jedoch erst in 3 Tagen geliefert.",
             optionAstyle: "none",
             optionBstyle: "none",
             image: "./PicsDatingFlätte/geschenk.jpg"
         },
         {
-            scene: "Benz",
+            scene: "Benz",  
             number: 1,
-            dialogue: "Taxi scene",
+            dialogue: "Deshalb nehmen sie das Taxi.",
             optionAstyle: "none",
             optionBstyle: "none",
             image: "./PicsDatingFlätte/Taxi.png",
@@ -105,9 +105,9 @@ const sceneList = {
         },
         // ------------------------- Buggati ---------------------------------------------------------
         {
-            scene: "Buggati",
+            scene: "Bugatti",
             number: 0,
-            dialogue: "Soll du oder Flätte fahren?",
+            dialogue: "Willst du fahren oder lässt du Flätte fahren?",
             optionA: "Flätte fahren",
             pathA: "flathouse",
             optionAstyle: "block",
@@ -120,7 +120,7 @@ const sceneList = {
         {
             scene: "dufahren",
             number: 0,
-            dialogue: "Car crash",     
+            dialogue: "Car-Crash!!!",     
             optionAstyle: "none",
             optionBstyle: "none",
             image: "./PicsDatingFlätte/carcrash.jpg"
@@ -128,7 +128,7 @@ const sceneList = {
         {
             scene: "dufahren",
             number: 1,
-            dialogue: "Du bist Tot",     
+            dialogue: "Ihr seid beide tot.",     
             optionAstyle: "none",
             optionBstyle: "none",
             image: "./PicsDatingFlätte/carcrash.jpg",
@@ -138,7 +138,7 @@ const sceneList = {
         {
             scene: "Restaurant",
             number: 0,
-            dialogue: "Du siehst Herr Andreas im Restaurant.",     
+            dialogue: "Du siehst Herr Andreas im Restaurant. Er ist verliebt in dich.",     
             optionAstyle: "none",
             optionBstyle: "none",
             image: "./PicsDatingFlätte/vonfinnendtdeckt.jpg"
@@ -159,7 +159,7 @@ const sceneList = {
         {
             scene: "Herrneiger",
             number: 0,
-            dialogue: "Du isst mit Flätte im Restaurant",     
+            dialogue: "Du isst mit Flätte im Restaurant.",     
             optionAstyle: "none",
             optionBstyle: "none",
             image: "./PicsDatingFlätte/essen.png",
@@ -167,7 +167,7 @@ const sceneList = {
         {
             scene: "Herrneiger",
             number: 1,
-            dialogue: "Du siehst, dass Herr Neiger wütend ist, dass du mit Flätte bist",     
+            dialogue: "Du siehst, dass Herr Andreas wütend ist, wiel du mit einem anderen Jungen isst.",     
             optionAstyle: "none",
             optionBstyle: "none",
             image: "./PicsDatingFlätte/andreaswütend.jpg",
@@ -175,7 +175,7 @@ const sceneList = {
         {
             scene: "Herrneiger",
             number: 2,
-            dialogue: "Herr Neiger nimmt ein Küchenmesser und versucht, Flätte zu töten",     
+            dialogue: "Herr Andreas nimmt ein Küchenmesser und versucht Flätte zu töten.",     
             optionAstyle: "none",
             optionBstyle: "none",
             image: "./PicsDatingFlätte/andreassticht.png",
@@ -183,7 +183,7 @@ const sceneList = {
         {
             scene: "Herrneiger",
             number: 3,
-            dialogue: "Er hat geschafft, Flätte zu töten. Flätte ist jetzt Tot. Rip bozo",     
+            dialogue: "Er hat es leider geschafft, Flätte zu töten. Flätte ist jetzt tot. RIP!!!",     
             optionAstyle: "none",
             optionBstyle: "none",
             image: "./PicsDatingFlätte/flättetot.png",
@@ -193,7 +193,7 @@ const sceneList = {
         {
             scene: "Mafia",
             number: 0,
-            dialogue: "Ein Mafioso kommt und spielt auch mit",     
+            dialogue: "Der Mafioso Berlusconi kommt und spielt auch mit.",     
             optionAstyle: "none",
             optionBstyle: "none",
             image: "./PicsDatingFlätte/mafiosowillspielen.jpg",
@@ -201,7 +201,7 @@ const sceneList = {
         {
             scene: "Mafia",
             number: 1,
-            dialogue: "Der Mafioso spielt mit",     
+            dialogue: "Der Mafioso spielt eine Runde mit.",     
             optionAstyle: "none",
             optionBstyle: "none",
             image: "./PicsDatingFlätte/spielmitmafioso.png",
@@ -209,7 +209,7 @@ const sceneList = {
         {
             scene: "Mafia",
             number: 2,
-            dialogue: "Der Mafioso verliert alles",     
+            dialogue: "Der Mafioso verliert und hat kein Geld mehr dabei.",     
             optionAstyle: "none",
             optionBstyle: "none",
             image: "./PicsDatingFlätte/mafiaverliert.png",
@@ -217,7 +217,7 @@ const sceneList = {
         {
             scene: "Mafia",
             number: 3,
-            dialogue: "Der Mafioso bringt den Spieler um",     
+            dialogue: "Der Mafioso bringt den Spieler um, so dass Flätte mit einem gebrochenen Herz leidet.",     
             optionAstyle: "none",
             optionBstyle: "none",
             image: "./PicsDatingFlätte/mafiatot.png",
@@ -227,7 +227,7 @@ const sceneList = {
         {
             scene: "Spazieren",
             number: 0,
-            dialogue: "Spazieren mit Flätte",     
+            dialogue: "Sie gehen spazieren.",     
             optionAstyle: "none",
             optionBstyle: "none",
             image: "./PicsDatingFlätte/spatzieren.jpg",
@@ -235,7 +235,7 @@ const sceneList = {
         {
             scene: "Spazieren",
             number: 1,
-            dialogue: "Du siehst ein Bar und ein Club. Wo willst du jetzt mit Flätte gehen?",
+            dialogue: "Du siehst eine Bar und ein Club. Wo willst du jetzt mit Flätte gehen?",
             optionA: "Bar",
             pathA: "Bar",
             optionAstyle: "block",
@@ -248,7 +248,7 @@ const sceneList = {
         {
             scene: "Club",
             number: 0,
-            dialogue: "Ihr seid jetzt im Club, willst du mit Flätte tanzen oder trinken?",
+            dialogue: "Ihr seid jetzt im Club, willst du mit Flätte tanzen oder zu ihm nach Hause und dort trinken?",
             optionA: "Mit Flätte tanzen",
             pathA: "Tanzen",
             optionAstyle: "block",
@@ -261,7 +261,7 @@ const sceneList = {
         {
             scene: "Tanzen",
             number: 0,
-            dialogue: "Du Tanzst mit Flätte",     
+            dialogue: "Du tanzt mit Flätte.",     
             optionAstyle: "none",
             optionBstyle: "none",
             image: "./PicsDatingFlätte/Flattanz2.png",
@@ -269,7 +269,7 @@ const sceneList = {
         {
             scene: "Tanzen",
             number: 1,
-            dialogue: "Du siehst, dass der Flätte glücklich ist.",     
+            dialogue: "Du siehst, dass Flätte glücklich ist.",     
             optionAstyle: "none",
             optionBstyle: "none",
             image: "./PicsDatingFlätte/flatglucklich.png",
@@ -297,7 +297,7 @@ const sceneList = {
         {
             scene: "Trinken",
             number: 2,
-            dialogue: "Du hast gesagt, dass die Mutter von Flätte hotter als er ist",     
+            dialogue: "Du hast gesagt, dass die Mutter von Flätte hotter als er ist.",     
             optionAstyle: "none",
             optionBstyle: "none",
             image: "./PicsDatingFlätte/flättebeleidigt.jpg",
@@ -305,7 +305,7 @@ const sceneList = {
         {
             scene: "Trinken",
             number: 3,
-            dialogue: "Korbus",     
+            dialogue: "Er schickt dich weg weil du ihn beleidigt hast.",     
             optionAstyle: "none",
             optionBstyle: "none",
             endScene: true,
@@ -315,7 +315,7 @@ const sceneList = {
         {
             scene: "flathouse",
             number: 0,
-            dialogue: "welcome to my house ",     
+            dialogue: "Das ist Flättes Haus.",     
             optionAstyle: "none",
             optionBstyle: "none",
             image: "./PicsDatingFlätte/flätteshouse.jpg",
@@ -323,7 +323,7 @@ const sceneList = {
         {
             scene: "flathouse",
             number: 1,
-            dialogue: "Im Garten trinken oder Netflix Film schauen?",
+            dialogue: "Willst du Im Garten trinken oder ein Netflix Film schauen?",
             optionA: "Trinken",
             pathA: "Trinken",
             optionAstyle: "block",
@@ -336,7 +336,7 @@ const sceneList = {
         {
             scene: "Netflix",
             number: 0,
-            dialogue: "Netflix mit Flätte",     
+            dialogue: "Ihr schaut Netflix.",     
             optionAstyle: "none",
             optionBstyle: "none",
             image: "./PicsDatingFlätte/netflix.jpg",
@@ -344,7 +344,7 @@ const sceneList = {
         {
             scene: "Netflix",
             number: 1,
-            dialogue: "Hoter Film von Netflix recommended",     
+            dialogue: "*Ein Hotter Film von Netflix vorgeschlagen*",     
             optionAstyle: "none",
             optionBstyle: "none",
             image: "./PicsDatingFlätte/netflix.jpg",
@@ -352,7 +352,7 @@ const sceneList = {
         {
             scene: "Netflix",
             number: 2,
-            dialogue: "Schlafzimmer",     
+            dialogue: "*Schlafzimmer yk ...*",     
             optionAstyle: "none",
             optionBstyle: "none",
             image: "./PicsDatingFlätte/bedroom.jpg",

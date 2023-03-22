@@ -1,0 +1,45 @@
+html,
+body {
+    text-align: center;
+    background-color: #ee71bc;
+    font-size: xx-large;
+    font-family: "Love Script", cursive;
+}
+button{
+    background-color: #ee9ccd;
+    border-color: rgba(255, 255, 255, 0);
+    width: 150px;
+    font-size: large;
+    height: 50px;
+    border-color: rgba(200, 79, 142, 0.621);
+    border-radius: 20px;
+    font-family: "Love Script", cursive;
+}
+
+#next{
+    border-color: rgba(158, 70, 115, 0.621);
+    border-style: double;
+    border: rgba(32, 13, 23, 0.621) solid;
+}
+
+button:hover{
+    background-color: #c24c93;
+    border-color: rgba(255, 255, 255, 0);
+    
+}
+
+.buttons{
+    position: absolute;
+    bottom: 0.75%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+img{
+    padding-top: 3%;
+}
+
+#dialogueBox{
+    position: relative;
+    top: 3%;
+}

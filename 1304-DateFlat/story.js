@@ -29,7 +29,7 @@ function gameStart(){
     console.log("game starting...")
     nextBtn.style.display = "block";
     startBtn.style.display = "none";
-    dialogue.innerHTML = "Hallo Ich bin de Flätte";
+    dialogue.innerHTML = "Hallo Ich bin Flätte!";
     image.src = "./PicsDatingFlätte/intro.png";
     sceneLocation = "Intro";
 }
